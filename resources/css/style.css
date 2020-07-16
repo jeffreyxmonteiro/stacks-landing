@@ -1,1 +1,64 @@
-style.css
+/*---------------------------------------------*/
+/* Basic Setup */
+/*---------------------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+
+.main-nav-items {
+  list-style: none;
+}
+
+.main-nav-items li {
+  display: inline-block;
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: 333333;
+  letter-spacing: 0.06em;
+}
+
+.hero-copy h1 {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  color: #333333;
+}
+
+.hero-copy h2 {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  letter-spacing: 0.04em;
+  color: #838383;
+}
+
+.typeforms h2 {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0.06em;
+  color: #333333;
+}
+
+.typeform-button h4 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  color: #333333;
+}
